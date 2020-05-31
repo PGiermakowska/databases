@@ -1,1 +1,2 @@
-# databases
+Na potrzeby realizacji naszego projektu z rozproszonych baz danych postanowiłyśmy zamodelować sklep online. Model na potrzeby bazy relacyjnej składa się z sześciu tabel.
+W przypadku bazy rozproszonej nasz model uległ małej modyfikacji i w rezultacie nasza baza przechowywuje dane o klientach i ich zamówieniach. Główna różnica pomiędzy naszym modelem dla relacyjnej bazy danych, a modelem przygotowanym dla ElasticSearch’a to brak relacji. W przypadku drugiego modelu zostało to zrealizowane poprzez tylko relację parent-child dla klienta i jego zamówień. Projekt został zrealizowany w jednym klasterze Dockera i przy użyciu trzech node’ów. 
