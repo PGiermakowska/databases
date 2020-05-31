@@ -1,4 +1,4 @@
-Aby utworzyæ nowy index przy u¿yciu Postmana u¿ywam postawow¹ metodê HTTP, jak¹ jest PUT pod localhost:9200/sklep. W Headers dodaje Content-type na application/json , a w body to co poni¿ej.
+###Aby utworzyc nowy index przy uzyciu Postmana uzywam postawowa metodÄ™ HTTP, jaka jest PUT pod localhost:9200/sklep. W Headers dodaje Content-type na application/json , a w body to co ponizej.
 
 {
 	"mappings": {
@@ -42,7 +42,7 @@ Aby utworzyæ nowy index przy u¿yciu Postmana u¿ywam postawow¹ metodê HTTP, jak¹ 
 	}
 }
 
-Nastêpnie przy u¿yciu POST'a dodajê nowe dokumenty z podanymi ni¿ej body.
+###Nastepnie przy uzyciu POST'a dodaje nowe dokumenty z podanymi nizej body.
 
 {
 	"imie": "Jan",
@@ -82,7 +82,7 @@ oraz
 	}
 }
 
-Nastêpnie w celu wyszukania interesuj¹cych mnie dokumentów korzystam z GET'a o podanych ni¿ej body:
+###Nastepnie w celu wyszukania interesujacych mnie dokumentow korzystam z GET'a o podanych nizej body:
 
 {
 	"query" : {
